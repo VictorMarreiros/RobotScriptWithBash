@@ -3,6 +3,8 @@
 - Cadastro de ticket automático Painel do franqueado - Memocash Soluções
 
 ## Criando diretório do projeto
+> cd C:/
+
 > mkdir C:/script
 
 > cd script
