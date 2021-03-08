@@ -7,7 +7,7 @@
 
 > cd C:/script
 
-clone o projeto dentro da pasta ./ScriptRobot
+clone o projeto na pasta ./src dentro de C:/script
 
 > git clone https://github.com/VictorMarreiros/RobotScriptWithBash.git src
 
