@@ -17,4 +17,8 @@ Para isso, é necessário ter o gerenciador de bibliotecas do node.js 'npm' inst
 Caso não possua o 'npm' instalado, instale o [node.js](https://nodejs.org/en/download/current/) na sua maquina e siga para o próximo passo.
 
 3. Caso já possua o 'npm' instalado, rode o comando abaixo para instalar as dependências do robot que fazem a comunicação com o browser
+> python -m rfbrowser init
+
+caso o comando acima não funcione, execute:
+
 > python -m Browser.entry init
