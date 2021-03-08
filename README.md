@@ -1,5 +1,6 @@
 # RobotScriptWithBash
-Utilizando RobotFramework para outros fins huE
+- Utilizando RobotFramework para outros fins huE
+- Cadastro de ticket automático Painel do franqueado - Memocash Soluções
 
 ## Criando diretório do projeto
 > mkdir C:/Projects
