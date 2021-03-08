@@ -5,6 +5,8 @@
 ## Criando diretório do projeto
 > mkdir C:/script
 
+> cd script
+
 clone o projeto dentro da pasta ./ScriptRobot
 
 > git clone https://github.com/VictorMarreiros/RobotScriptWithBash.git src
