@@ -25,7 +25,7 @@ if %opcao% GEQ 3 goto opcao3
 
 :opcao1
 title Abrir ticket - Revenda
-set /P id_cli=Informe o ID Cliente: 
+set /P id_cli=Informe o ID do cliente em atendimento: 
 python -m robot --variable id_cliente:%id_cli% C:/script/src/ticket-revenda.robot
 pause
 goto menu
