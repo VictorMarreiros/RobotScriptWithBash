@@ -4,8 +4,8 @@ Library         Browser
 
 
 ** Keywords **
-[Arguments]         ${ID_CLIENTE}
-
+[Arguments]         ${id_cliente}
+Log     Argumento setado    ${id_cliente}
 
 **Variables**
 ${ID_REVENDA}       1
@@ -36,14 +36,14 @@ Abertura de ticket - REVENDA
     Wait For Elements State         css=div[class=jconfirm-scrollpane]  visible      10 
     Click                           css=#select2-CadastroTicketCliente-container
 
-    Fill Text                       css=input[class=select2-search__field]           ${ID_CLIENTE}
+    Fill Text                       css=input[class=select2-search__field]           ${id_cliente}
 
-    Click                           css=.select2-results .select2-results__options li[id$="${ID_CLIENTE}"]      
+    Click                           css=.select2-results .select2-results__options li[id$="-${id_cliente}"]      
 
     Click                           css=#CadastroTicketAssunto                           
     Fill Text                       css=#CadastroTicketAssunto                       ${TITULO_TICKET}
     Fill Text                       css=#CadastroTicketDescricao                     ${DESCRICAO}
-    Sleep                           2
+    Sleep                           3
 
     # Confirmando abertura de ticket
     Click                           xpath=/html/body/div[3]/div[2]/div/div/div/div/div[4]/button[1]

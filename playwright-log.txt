@@ -1,0 +1,36 @@
+{"level":30,"time":"2021-03-08T15:23:51.713Z","pid":18104,"hostname":"VICTOR_M","msg":"Listening on 56702"}
+{"level":30,"time":"2021-03-08T15:23:52.649Z","pid":18104,"hostname":"VICTOR_M","msg":"Changed active context"}
+{"level":30,"time":"2021-03-08T15:23:52.845Z","pid":18104,"hostname":"VICTOR_M","msg":"Video path: undefined"}
+{"level":30,"time":"2021-03-08T15:23:52.845Z","pid":18104,"hostname":"VICTOR_M","msg":"Changed active page"}
+{"level":30,"time":"2021-03-08T15:24:07.991Z","pid":18104,"hostname":"VICTOR_M","msg":"Changed active context"}
+{"level":30,"time":"2021-03-08T15:24:07.992Z","pid":18104,"hostname":"VICTOR_M","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-08T15:24:07.992Z","pid":18104,"hostname":"VICTOR_M","msg":"Changed active page"}
+================= Original suppressed error =================
+page.bringToFront: Target page, context or browser has been closedError
+    at Object.captureStackTrace (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:48:19)
+    at Connection.sendMessageToServer (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:426:27
+    at Page._wrapApiCall (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Page.bringToFront (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:425:21)
+    at BrowserState.<anonymous> (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\index.js:70747:53)
+    at step (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\index.js:70332:23)
+    at Object.next (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\index.js:70313:53)
+    at C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\index.js:70307:71
+=============================================================
+{"level":30,"time":"2021-03-08T15:24:08.050Z","pid":18104,"hostname":"VICTOR_M","msg":"Changed active context"}
+{"level":30,"time":"2021-03-08T15:24:08.050Z","pid":18104,"hostname":"VICTOR_M","msg":"Changing current active page"}
+{"level":30,"time":"2021-03-08T15:24:08.050Z","pid":18104,"hostname":"VICTOR_M","msg":"Changed active page"}
+================= Original suppressed error =================
+page.bringToFront: Target page, context or browser has been closedError
+    at Object.captureStackTrace (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\utils\stackTrace.js:48:19)
+    at Connection.sendMessageToServer (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:48)
+    at Proxy.<anonymous> (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:64:61)
+    at C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:426:27
+    at Page._wrapApiCall (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:77:34)
+    at Page.bringToFront (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:425:21)
+    at BrowserState.<anonymous> (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\index.js:70747:53)
+    at step (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\index.js:70332:23)
+    at Object.next (C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\index.js:70313:53)
+    at C:\Users\user\AppData\Local\Programs\Python\Python38-32\lib\site-packages\Browser\wrapper\index.js:70307:71
+=============================================================

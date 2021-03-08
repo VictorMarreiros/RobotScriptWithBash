@@ -12,7 +12,7 @@ echo
 echo 			MENU TAREFAS
 echo  ==================================
 echo * 1. Abrir Ticket - Revenda 		*
-echo * 2. Sair							*
+echo * 2. Sair						    *
 echo  ==================================
 
 
@@ -25,8 +25,8 @@ if %opcao% GEQ 3 goto opcao3
 
 :opcao1
 title Abrir ticket - Revenda
-set /p id= Informe o ID Cliente: 
-python -m robot --variable ID_CLIENTE:id C:/Projects/ticket-revenda.robot
+set /P id_cli=Informe o ID Cliente: 
+python -m robot --variable id_cliente:%id_cli% C:/Projects/ScriptRobot/ticket-revenda.robot
 pause
 goto menu
 
