@@ -9,8 +9,8 @@ Log     Argumento setado    ${id_cliente}
 
 **Variables**
 ${ID_REVENDA}       1
-${USER}             victor
-${SENHA}            fuego
+${USER}             <substitua_pelo_seu_usuário>
+${SENHA}            <substitua_pela_sua_senha>
 ${TITULO_TICKET}    TESTE SCRIPT - ATENDIMENTO INICIADO
 ${DESCRICAO}        DESCRIÇÃO TESTE DE CHAMADO NO SUPORTE
 
