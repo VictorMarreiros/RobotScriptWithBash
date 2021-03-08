@@ -9,7 +9,8 @@ Utilizando RobotFramework para outros fins huE
 
 ### Após a instalação das bibliotecas utilizadas, é necessário instalar as dependências do Robot Framework que fazem a  comunicação com o browser
 
-Para isso, é necessário ter o gerenciador de bibliotecas do node.js 'npm' instalado na sua máquina. 
+Para isso, é necessário ter o gerenciador de bibliotecas do node.js 'npm' instalado na sua máquina.
+
 2. Consulte se você possui o 'npm' instalado, rodando o seguinte comando no cmd/terminal:
 > npm --version
 
