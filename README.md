@@ -3,11 +3,9 @@
 - Cadastro de ticket automático Painel do franqueado - Memocash Soluções
 
 ## Criando diretório do projeto
-> cd C:/
-
 > mkdir C:/script
 
-> cd script
+> cd C:/script
 
 clone o projeto dentro da pasta ./ScriptRobot
 
