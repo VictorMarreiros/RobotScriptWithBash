@@ -1,4 +1,4 @@
-title Script para facilitar a vida
+title Script para facilitar a vida do suporte técnico na abertura de tickets internos
 @echo off
 cls
 :menu
@@ -9,10 +9,10 @@ date/t
 
 echo Computador: %computername% 		Usuario: %username%
 echo
-echo 			MENU TAREFAS
+echo 			MENU OPCOES
 echo  ==================================
-echo * 1. Abrir Ticket - Revenda 		*
-echo * 2. Sair						    *
+echo * 1. Abrir Ticket - Revenda 		
+echo * 2. Sair						    
 echo  ==================================
 
 
