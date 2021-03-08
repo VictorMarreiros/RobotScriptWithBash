@@ -3,7 +3,7 @@ Utilizando RobotFramework para outros fins huE
 
 
 ## Instalando bibliotecas utilizadas
-1. Entrar na pasta do projeto pelo terminal/cmd e rodar o comando
+1. Entre na pasta do projeto pelo terminal/cmd e execute o comando
 > python -m pip install -r ./requirements.txt
 
 
@@ -16,7 +16,7 @@ Para isso, é necessário ter o gerenciador de bibliotecas do node.js 'npm' inst
 
 Caso não possua o 'npm' instalado, instale o [node.js](https://nodejs.org/en/download/current/) na sua maquina e siga para o próximo passo.
 
-3. Caso já possua o 'npm' instalado, rode o comando abaixo para instalar as dependências do robot que fazem a comunicação com o browser
+3. Caso já possua o 'npm' instalado, execute o comando abaixo para instalar as dependências do robot que fazem a comunicação com o browser
 > python -m rfbrowser init
 
 caso o comando acima não funcione, execute:
