@@ -5,14 +5,14 @@ Library         Browser
 
 ** Keywords **
 [Arguments]         ${id_cliente}
-Log     Argumento setado    ${id_cliente}
+Log     ID de cliente informado pelo prompt:    ${id_cliente}
 
 **Variables**
 ${ID_REVENDA}       1
 ${USER}             <substitua_pelo_seu_usuário>
 ${SENHA}            <substitua_pela_sua_senha>
-${TITULO_TICKET}    TESTE SCRIPT - ATENDIMENTO INICIADO
-${DESCRICAO}        DESCRIÇÃO TESTE DE CHAMADO NO SUPORTE
+${TITULO_TICKET}    ATENDIMENTO INICIADO
+${DESCRICAO}        CHAMADO DO CLIENTE ESTÁ 'EM ANÁLISE PELO DEPTO SUPORTE', AGUARDAR INTERAÇÃO PARA MAIS DETALHES..
 
 
 ***Test Cases***
