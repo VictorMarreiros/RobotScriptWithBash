@@ -1,0 +1,5 @@
+robotframework
+robotframework-browser
+# instalar as dependencias do robot para comunicação com browser: python -m Browser.entry init
+browser
+
