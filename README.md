@@ -6,11 +6,11 @@
 Tenho utilizado o [cmder](https://cmder.net/) como emulador de console, uma das vantagens de utilizá-lo é que ele permite utilizar vários comandos linux, como: ls, cat, touch, mv, cp, rm e mais alguns outros que são possíveis de utilizar estando no windows.
 
 ## Criando diretório do projeto
-> mkdir C:/script
+> mkdir C:\script
 
-> cd C:/script
+> cd C:\script
 
-clone o projeto na pasta ./src dentro de C:/script
+clone o projeto na pasta .\src dentro de C:\script
 
 > git clone https://github.com/VictorMarreiros/RobotScriptWithBash.git src
 
@@ -20,7 +20,7 @@ clone o projeto na pasta ./src dentro de C:/script
 *Caso não possua o 'pip', instale o [python](https://www.python.org/downloads/) na sua maquina e siga para o primeiro passo. Obs: Na instalação marque a check-box para acrescentar o python ao path*
 
 1. Entre na pasta do projeto pelo terminal/cmd e execute o comando:
-> python -m pip install -r C:/script/src/requirements.txt
+> python -m pip install -r C:\script\src\requirements.txt
 
 
 ### Após a instalação das bibliotecas utilizadas, é necessário instalar as dependências do Robot Framework que fazem a  comunicação com o browser
