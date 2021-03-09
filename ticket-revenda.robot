@@ -44,9 +44,9 @@ Abertura de ticket - REVENDA
     Click                           css=#CadastroTicketAssunto                           
     Fill Text                       css=#CadastroTicketAssunto                       ${TITULO_TICKET}
     Fill Text                       css=#CadastroTicketDescricao                     ${DESCRICAO}
-    Sleep                           2
 
     # Confirmando abertura de ticket
+    Sleep                           2
     Click                           xpath=/html/body/div[3]/div[2]/div/div/div/div/div[4]/button[1]
     
     # Abrindo listagem de tickets
