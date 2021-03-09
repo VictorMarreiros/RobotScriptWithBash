@@ -5,19 +5,19 @@ Library         Browser
 
 ** Keywords **
 [Arguments]         ${id_cliente}
-Log     ID de cliente informado pelo prompt:    ${id_cliente}
+Log     ID de cliente informado via prompt:    ${id_cliente}
 
 **Variables**
-${ID_REVENDA}       <substitua_pelo_id_revenda>
-${USER}             <substitua_pelo_seu_usuário>
-${SENHA}            <substitua_pela_sua_senha>
+${ID_REVENDA}       1
+${USER}             victor
+${SENHA}            fuego
 ${TITULO_TICKET}    ATENDIMENTO INICIADO
 ${DESCRICAO}        CHAMADO DO CLIENTE ESTÁ 'EM ANÁLISE PELO DEPTO SUPORTE', AGUARDAR INTERAÇÃO PARA MAIS DETALHES..
 
 
 ***Test Cases***
 Abertura de ticket - REVENDA
-    Open Browser                    <https://url_do_painel.com>                     chromium
+    Open Browser                    http://revenda.memocashweb.com/                 chromium
 
     #Login de usuário
     Fill Text                       css=#Cliente                                    ${ID_REVENDA}
@@ -51,6 +51,6 @@ Abertura de ticket - REVENDA
     
     # Abrindo listagem de tickets
     Click                           xpath=//*[@id="listaTickets"]/li[1]/a
-    Sleep                           2
+    Sleep                           5
 
     #End
