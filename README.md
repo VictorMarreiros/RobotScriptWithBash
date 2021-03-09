@@ -8,11 +8,11 @@ Tenho utilizado o [cmder](https://cmder.net/) como emulador de console, uma das 
 Essa ferramenta é bem completa e gratuíta, o que é melhor ainda, e ainda é uma indicação do Fernando Papito, founder da [QA Ninja](https://dojo.qaninja.com.br/).
 
 ## Criando diretório do projeto
-> mkdir C:\script
+> mkdir C:\Script
 
-> cd C:\script
+> cd C:\Script
 
-clone o projeto na pasta .\src dentro de C:\script
+clone o projeto na pasta .\src dentro de C:\Script, executando o seguinte comando:
 
 > git clone https://github.com/VictorMarreiros/RobotScriptWithBash.git src
 
@@ -22,7 +22,7 @@ clone o projeto na pasta .\src dentro de C:\script
 *Caso não possua o 'pip', instale o [python](https://www.python.org/downloads/) na sua maquina e siga para o primeiro passo. Obs: Na instalação marque a check-box para acrescentar o python ao path*
 
 1. Entre na pasta do projeto pelo terminal/cmd e execute o comando:
-> python -m pip install -r C:\script\src\requirements.txt
+> python -m pip install -r C:\Script\src\requirements.txt
 
 
 ### Após a instalação das bibliotecas utilizadas, é necessário instalar as dependências do Robot Framework que fazem a  comunicação com o browser
