@@ -17,7 +17,7 @@ ${DESCRICAO}        CHAMADO DO CLIENTE ESTÁ 'EM ANÁLISE PELO DEPTO SUPORTE', A
 
 ***Test Cases***
 Abertura de ticket - REVENDA
-    Open Browser                    <https://url_do_paineil.com>                    chromium
+    Open Browser                    <https://url_do_painel.com>                     chromium
 
     Fill Text                       css=#Cliente                                    ${ID_REVENDA}
     Fill Text                       css=#Usuario                                    ${USER}
