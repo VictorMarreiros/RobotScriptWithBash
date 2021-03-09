@@ -50,8 +50,7 @@ Abertura de ticket - REVENDA
     Click                           xpath=/html/body/div[3]/div[2]/div/div/div/div/div[4]/button[1]
     
     # Abrindo listagem de tickets
-    Click                           xpath=//*[@id="listaTickets"]/li[1]/a     
+    Click                           xpath=//*[@id="listaTickets"]/li[1]/a
+    Sleep                           2
 
-
-
-    
+    #End
