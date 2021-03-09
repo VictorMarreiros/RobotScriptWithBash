@@ -3,9 +3,9 @@
 - Cadastro de ticket automático Painel do franqueado - Memocash Soluções
 
 ## Console Emulator
-Tenho utilizado o [cmder](https://cmder.net/) como emulador de console, uma das vantagens de utilizá-lo é que ele permite usar diversos comandos linux, como: ls, cat, touch, mv, cp, rm e outros comandos que são possíveis de utilizar estando no próprio windows, e além disso, ainda possui o git-for-windows no seu pacote. 
+Tenho utilizado o [cmder](https://cmder.net/) como emulador de console, uma das vantagens de utilizá-lo é que ele permite usar diversos comandos linux, como: ls, cat, touch, mv, cp, rm e outros comandos que são possíveis de utilizar estando no próprio windows, e além disso, ainda possui o git-for-windows no seu pacote da versão full (não instale a versão mini, pois não é tão robusto). 
 
-Ou seja, a ferramenta é bem completa e é uma indicação do Fernando Papito, instrutor e fundador da [QA Ninja](https://dojo.qaninja.com.br/).
+Essa ferramenta é bem completa e gratuíta, o que é melhor ainda, e ainda é uma indicação do Fernando Papito, founder da [QA Ninja](https://dojo.qaninja.com.br/).
 
 ## Criando diretório do projeto
 > mkdir C:\script
