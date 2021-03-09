@@ -9,8 +9,8 @@ Log     ID de cliente informado via prompt:    ${id_cliente}
 
 **Variables**
 ${ID_REVENDA}       <substitua_pelo_id_revenda>
-${USER}             <substitua_pelo_seu_usuário>
-${SENHA}            <substitua_pela_sua_senha>
+${USER}             <substitua_pelo_usuário>
+${SENHA}            <substitua_pela_senha>
 ${TITULO_TICKET}    ATENDIMENTO INICIADO
 ${DESCRICAO}        CHAMADO DO CLIENTE ESTÁ 'EM ANÁLISE PELO DEPTO SUPORTE', AGUARDAR INTERAÇÃO PARA MAIS DETALHES..
 
