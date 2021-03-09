@@ -8,16 +8,16 @@ Library         Browser
 Log     ID de cliente informado via prompt:    ${id_cliente}
 
 **Variables**
-${ID_REVENDA}       1
-${USER}             victor
-${SENHA}            fuego
+${ID_REVENDA}       <substitua_pelo_id_revenda>
+${USER}             <substitua_pelo_seu_usuário>
+${SENHA}            <substitua_pela_sua_senha>
 ${TITULO_TICKET}    ATENDIMENTO INICIADO
 ${DESCRICAO}        CHAMADO DO CLIENTE ESTÁ 'EM ANÁLISE PELO DEPTO SUPORTE', AGUARDAR INTERAÇÃO PARA MAIS DETALHES..
 
 
 ***Test Cases***
 Abertura de ticket - REVENDA
-    Open Browser                    http://revenda.memocashweb.com/                 chromium
+    Open Browser                    <https://url_do_painel.com>                     chromium
 
     #Login de usuário
     Fill Text                       css=#Cliente                                    ${ID_REVENDA}
