@@ -2,6 +2,9 @@
 - Utilizando RobotFramework para outros fins huE
 - Cadastro de ticket automático Painel do franqueado - Memocash Soluções
 
+## Console Emulator
+Tenho utilizado o [cmder](https://cmder.net/) como emulador de console, uma das vantagens de utilizá-lo é que ele permite utilizar vários comandos linux, como: ls, cat, touch, mv, cp, rm e mais alguns outros que são possíveis estando no windows.
+
 ## Criando diretório do projeto
 > mkdir C:/script
 
